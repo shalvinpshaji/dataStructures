@@ -55,15 +55,3 @@ class Linked:
       print(f"{i} : {temp.value}")
       temp = temp.next
       i+=1
-
-
-l = Linked()
-for i  in range(20):
-  l.insert(i)
-l.print_with_index()
-l.remove(20)
-l.print_with_index()
-l.remove(20)
-l.print_with_index()
-l.remove(6)
-l.print_with_index()
